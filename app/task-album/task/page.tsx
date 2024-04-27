@@ -1,5 +1,9 @@
+import TaskCard from "@/app/ui/task/task-card"
+
 export default function Page() {
     return (
-        <p>タスクページ</p>    
+        <>
+            <TaskCard />
+        </> 
     )
 }

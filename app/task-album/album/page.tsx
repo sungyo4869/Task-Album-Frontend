@@ -1,5 +1,7 @@
+import MemoryCard from "@/app/ui/alubum/memory-card"
+
 export default function Page() {
     return (
-        <p>思い出ページ</p>    
+        <MemoryCard />
     )
 }

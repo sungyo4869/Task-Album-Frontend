@@ -1,7 +1,6 @@
 'use client'
 
 import {
-    HomeIcon,
     RectangleStackIcon,
     PhotoIcon,
   } from '@heroicons/react/24/outline';
@@ -10,7 +9,6 @@ import clsx from 'clsx';
 import { usePathname } from 'next/navigation';
 
   const links = [
-    { name: 'ホーム', href: '/task-album', icon: HomeIcon },
     {
       name: 'タスク',
       href: '/task-album/task',
