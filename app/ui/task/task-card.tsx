@@ -24,9 +24,9 @@ const tasks = [
 export default function taskCard() {
     return (
         <>
-            {tasks.map((task) => {
+            {tasks.map((task, index) => {
                 return (
-                    <Card sx={{ mt: 1 }}>
+                    <Card key={ index } sx={{ mt: 1 }}>
                         <CardContent>
                             <p>{task.task_name}</p>
                             <p>期限：{task.limit.toString()}</p>
