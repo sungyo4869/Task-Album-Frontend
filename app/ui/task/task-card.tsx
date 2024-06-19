@@ -2,21 +2,21 @@ import { Card, CardContent, FormControl, InputLabel, NativeSelect } from "@mui/m
 
 const tasks = [
     {
-        task_name: "起きる",
-        limit: new Date('2024-04-21T08:30:00'),
-        summary: "明日は会議があるよ、がんばろうね",
+        task_name: "レポート提出",
+        limit: new Date('2024-04-21T07:30:00'),
+        summary: "ネットワークの実験のレポート書かなきゃ、単位落とすよ",
         status: "planning"
     },
     {
-        task_name: "起きる",
-        limit: new Date('2024-04-21T08:30:00'),
-        summary: "明日は会議があるよ、がんばろうね",
+        task_name: "デート",
+        limit: new Date('2024-04-25T10:30:00'),
+        summary: "太郎くんとデートだよ、おめかししようね",
         status: "planning"
     },
     {
-        task_name: "起きる",
-        limit: new Date('2024-04-21T08:30:00'),
-        summary: "明日は会議があるよ、がんばろうね",
+        task_name: "会議",
+        limit: new Date('2024-04-21T17:30:00'),
+        summary: "バイトの会議が入ってるよ、寝ちゃだめだよ",
         status: "planning"
     },
 ]
